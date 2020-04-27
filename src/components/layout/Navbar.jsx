@@ -64,7 +64,7 @@ const StyledIconList = styled.li`
   padding: 8px 0;
   a {
     svg {
-      font-size: 1.6rem;
+      font-size: 1.4em;
     }
   }
 

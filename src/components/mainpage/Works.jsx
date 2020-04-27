@@ -7,7 +7,9 @@ import { StyledButton } from "../asset/button";
 import { ProjectObj } from "../subpage/ProjectContent";
 import NavigateNextIcon from "@material-ui/icons/NavigateNext";
 import Link from "@material-ui/core/Link";
+// import { Link } from "react-router-dom";
 import Slide from "react-reveal/Slide";
+import Rotate from "react-reveal/Rotate";
 
 const StyledSection = styled.section`
   padding: 0 8% 8% 8%;
@@ -33,10 +35,14 @@ const StyledImg = styled.img`
   position: relative;
   margin: auto 0;
   padding: 20px;
+  transition: all 0.6s ease 0s;
+  &:hover {
+    transform: scale(1.1, 1.1);
+  }
 `;
 
 const StyledProjectDescBox = styled(Box)`
-  min-height: 30vh;
+  min-height: 40vh;
   @media only screen and (min-width: 600px) {
     padding: 100px 30px 0 0;
     text-align: center;
@@ -61,20 +67,22 @@ const Works = () => {
       <StyledContainer container style={{ paddingTop: "16px" }}>
         <Grid item xs={12} sm={6}>
           <StyledBackgroundDiv></StyledBackgroundDiv>
-          <StyledImg src="./images/haiku.png" alt="" width="100%" />
+          <Link href="/work1">
+            <StyledImg src="./images/haiku.png" alt="" width="100%" />
+          </Link>
         </Grid>
         <Grid item xs={12} sm={6} style={{ zIndex: "2" }}>
           <StyledProjectDescBox>
             <Typography variant="subtitle1" align="left">
-              <Slide right cascade>
+              <Rotate top right cascade>
                 {ProjectObj.project1.title}
-              </Slide>
+              </Rotate>
             </Typography>
-            <Typography variant="body2" align="left">
-              <Slide right cascade>
+            <Slide right cascade>
+              <Typography variant="body2" align="left">
                 {ProjectObj.project1.summary}
-              </Slide>
-            </Typography>
+              </Typography>
+            </Slide>
             {ProjectObj.project1.madeWithMain.map((item, index) => (
               <StyledSpan variant="overline" key={index}>
                 {item}
@@ -92,21 +100,22 @@ const Works = () => {
       <StyledContainer container>
         <Grid item xs={12} sm={6}>
           <StyledBackgroundDiv></StyledBackgroundDiv>
-
-          <StyledImg src="./images/pics.png" alt="" width="100%" />
+          <Link href="/work2">
+            <StyledImg src="./images/pics.png" alt="" width="100%" />
+          </Link>
         </Grid>
         <Grid item xs={12} sm={6} style={{ zIndex: "2" }}>
           <StyledProjectDescBox>
             <Typography variant="subtitle1" align="left">
-              <Slide right cascade>
+              <Rotate top right cascade>
                 {ProjectObj.project2.title}
-              </Slide>
+              </Rotate>
             </Typography>
-            <Typography variant="body2" align="left">
-              <Slide right cascade>
+            <Slide right cascade>
+              <Typography variant="body2" align="left">
                 {ProjectObj.project2.summary}
-              </Slide>
-            </Typography>
+              </Typography>
+            </Slide>
             {ProjectObj.project2.madeWithMain.map((item, index) => (
               <StyledSpan variant="overline" key={index}>
                 {item}
@@ -124,21 +133,22 @@ const Works = () => {
       <StyledContainer container>
         <Grid item xs={12} sm={6}>
           <StyledBackgroundDiv></StyledBackgroundDiv>
-
-          <StyledImg src="./images/noella.png" alt="" width="100%" />
+          <Link href="/work2">
+            <StyledImg src="./images/noella.png" alt="" width="100%" />
+          </Link>
         </Grid>
         <Grid item xs={12} sm={6} style={{ zIndex: "2" }}>
           <StyledProjectDescBox>
             <Typography variant="subtitle1" align="left">
-              <Slide right cascade>
+              <Rotate top right cascade>
                 {ProjectObj.project3.title}
-              </Slide>
+              </Rotate>
             </Typography>
-            <Typography variant="body2" align="left">
-              <Slide right cascade>
+            <Slide right cascade>
+              <Typography variant="body2" align="left">
                 {ProjectObj.project3.summary}
-              </Slide>
-            </Typography>
+              </Typography>
+            </Slide>
             {ProjectObj.project3.madeWithMain.map((item, index) => (
               <StyledSpan variant="overline" key={index}>
                 {item}
