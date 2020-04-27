@@ -37,7 +37,10 @@ const StyledImg = styled.img`
   position: relative;
   margin: auto 0;
   padding: 20px;
-  width: 80%;
+  width: 90%;
+  @media only screen and (min-width: 600px) {
+    width: 60%;
+  }
 `;
 
 const StyledSpan = styled.span`

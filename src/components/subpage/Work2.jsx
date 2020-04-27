@@ -26,7 +26,7 @@ const StyledHeader = styled.header`
 
 const StyledSection = styled.section`
   padding: 8%;
-  // display: flex-box;
+
   text-align: center;
 `;
 const StyledContainer = styled(Grid)`
@@ -38,7 +38,10 @@ const StyledImg = styled.img`
   position: relative;
   margin: auto 0;
   padding: 20px;
-  width: 80%;
+  width: 90%;
+  @media only screen and (min-width: 600px) {
+    width: 60%;
+  }
 `;
 
 const StyledSpan = styled.span`
