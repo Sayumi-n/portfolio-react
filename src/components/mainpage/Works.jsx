@@ -146,7 +146,7 @@ const Works = () => {
             ))}
             <br />
 
-            <StyledButton href="/work2" component={Link}>
+            <StyledButton href="/work3" component={Link}>
               Detail
               <NavigateNextIcon />
             </StyledButton>

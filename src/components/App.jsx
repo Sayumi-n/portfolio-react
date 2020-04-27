@@ -19,9 +19,9 @@ class App extends React.Component {
           <Navbar />
           <Switch>
             <Route exact path="/" component={Main} />
-            <Route exact path="/work1" component={Work1} />
-            <Route exact path="/work2" component={Work2} />
-            <Route exact path="/work3" component={Work3} />
+            <Route path="/work1" component={Work1} />
+            <Route path="/work2" component={Work2} />
+            <Route path="/work3" component={Work3} />
           </Switch>
 
           <Footer />
