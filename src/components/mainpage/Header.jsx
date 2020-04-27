@@ -2,7 +2,7 @@ import React from "react";
 import styled, { keyframes } from "styled-components";
 import { Typography } from "@material-ui/core";
 import Zoom from "react-reveal/Zoom";
-import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 const StyledHeader = styled.header`
   width: 84%;
@@ -77,12 +77,12 @@ const Header = () => {
           </Typography>
         </Zoom>
       </TitleDiv>
-      <Link to="">
+      <HashLink smooth={true} to="/#works">
         <ScrollBtn>
           <ScrollArrow></ScrollArrow>
           <ScrollArrowText>View my work</ScrollArrowText>
         </ScrollBtn>
-      </Link>
+      </HashLink>
     </StyledHeader>
   );
 };
