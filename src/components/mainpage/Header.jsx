@@ -18,7 +18,7 @@ const StyledHeader = styled.header`
 `;
 
 const TitleDiv = styled.div`
-  padding: 30vh 10%;
+  padding: 35vh 10%;
 `;
 
 const ScrollBtn = styled.div`
@@ -73,7 +73,7 @@ const Header = () => {
       <TitleDiv>
         <Zoom>
           <Typography variant="h4" style={{ color: "#1E2233" }}>
-            Hi, I'm Sayumi, a Front-end Web Developer.
+            Hi, I'm Sayumi, <br />a Front-end Web Developer.
           </Typography>
         </Zoom>
       </TitleDiv>

@@ -133,7 +133,7 @@ const Works = () => {
       <StyledContainer container>
         <Grid item xs={12} sm={6}>
           <StyledBackgroundDiv></StyledBackgroundDiv>
-          <Link href="/work2">
+          <Link href="/work3">
             <StyledImg src="./images/noella.png" alt="" width="100%" />
           </Link>
         </Grid>
