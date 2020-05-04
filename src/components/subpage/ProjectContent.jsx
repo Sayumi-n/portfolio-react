@@ -27,6 +27,6 @@ export const ProjectObj = {
 
     // ],
     description:
-      "My first individual responsive website project after I learned HTML/CSS for 2 months. First website demo:https://noellatradingcompany.github.io/  Since the company didn't have website yet, I built this website from scratch with Figma, HTML5, CSS3, JavaScript and jQuery. After I learned React for 2 months and some principals of UI/UX design, I rebuilt website with React.js. Still discussing what functions they need, will be updated with additional functionality like online shop and Instagram API. Noella means Christmas in French, and the company owns two gift stores with different concepts in Vancouver, so I tried design website that fits to both of them.",
+      "My first individual responsive website project after I learned HTML/CSS for 2 months. First website demo:https://noellatradingcompany.github.io/  Since the company didn't have website yet, I built this website from scratch with Figma, HTML5, CSS3, JavaScript and jQuery. After I learned React for 2 months and get to know some principals of UI/UX design with online tutorials, I rebuilt website with React.js. Still discussing what functions they need, will be updated with additional functionality like online shop and Instagram API. Noella means Christmas in French, and the company owns two gift stores with different concepts in Vancouver, so I tried design website that fits to both of them.",
   },
 };
