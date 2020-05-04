@@ -30,7 +30,7 @@ const StyledSection = styled.section`
   text-align: center;
 `;
 const StyledContainer = styled(Grid)`
-  padding: 32px 10%;
+  padding: 32px 8%;
   text-align: center;
 `;
 
