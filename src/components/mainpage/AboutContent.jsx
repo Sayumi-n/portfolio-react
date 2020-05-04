@@ -1,7 +1,7 @@
 export const AboutContent = {
   aboutMe: {
     text:
-      "Energetic front-end web developer, seeking to use my passion for building and designing websites. Ambitious, flexible team member who enjoys learning new skills and up-to-date technologies, dept at maintaining cordial and professional relationships with colleagues and customers.",
+      "Energetic front-end web developer, seeking to use my passion for building and designing websites. Ambitious, flexible team member who enjoys learning new skills and up-to-date technologies, adept at maintaining cordial and professional relationships with colleagues and customers.",
   },
   lists: {
     interest: {

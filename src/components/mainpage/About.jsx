@@ -69,7 +69,7 @@ const About = () => {
                 </Typography>
               </Fade>
             </StyledHeadlineDiv>
-            <p align="justify" style={{ padding: "30px" }}>
+            <p align="right" style={{ padding: "30px" }}>
               {AboutContent.aboutMe.text}
             </p>
           </Grid>
