@@ -6,15 +6,20 @@ import { HashLink } from "react-router-hash-link";
 
 const StyledHeader = styled.header`
   width: 84%;
-  margin: 0 8%;
-  margin-top: -184px;
+
+  margin: -184px 8% 0 8%;
   text-align: center;
   background-image: url("./images/top.png");
-  // background-color: #f8f8f8;
+
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   height: 90vh;
+  @media only screen and (max-width: 600px) {
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+  }
 `;
 
 const TitleDiv = styled.div`
