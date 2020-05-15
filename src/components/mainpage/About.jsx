@@ -8,7 +8,7 @@ import Zoom from "react-reveal/Zoom";
 import { AboutContent } from "./AboutContent";
 
 const StyledSection = styled.section`
-  padding: 0 8% 8% 8%;
+  padding: 8% 8% 0 8%;
   text-align: center;
 `;
 
@@ -75,7 +75,7 @@ const About = () => {
           </Grid>
         </Grid>
       </StyledSection>
-      <StyledSection>
+      <StyledSection style={{ paddingBottom: "8%" }}>
         <Typography variant="h6">What I Do</Typography>
         <hr style={{ width: "50px" }} />
 

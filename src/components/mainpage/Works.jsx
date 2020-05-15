@@ -12,7 +12,7 @@ import Slide from "react-reveal/Slide";
 import Rotate from "react-reveal/Rotate";
 
 const StyledSection = styled.section`
-  padding: 0 10% 8% 10%;
+  padding: 8% 10% 8% 10%;
   text-align: center;
 `;
 const StyledContainer = styled(Grid)`
