@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
-import { NavLink } from "react-router-dom";
+// import { NavLink } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 
 import GitHubIcon from "@material-ui/icons/GitHub";
@@ -73,13 +73,19 @@ const StyledIconList = styled.li`
   }
 `;
 
+const scrollWithOffset = (el) => {
+  const yCoordinate = el.getBoundingClientRect().top + window.pageYOffset;
+  const yOffset = -80;
+  window.scrollTo({ top: yCoordinate + yOffset, behavior: "smooth" });
+};
+
 const Navbar = () => {
   return (
     <>
       <Nav>
-        <NavLink to="/">
+        <HashLink to="#top" smooth scroll={(el) => scrollWithOffset(el)}>
           <Logo>SAYUMI</Logo>
-        </NavLink>
+        </HashLink>
         <ul
           style={{
             margin: 0,

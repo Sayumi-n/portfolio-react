@@ -74,7 +74,7 @@ const ScrollArrowText = styled.span`
 
 const Header = () => {
   return (
-    <StyledHeader>
+    <StyledHeader id="top">
       <TitleDiv>
         <Zoom>
           <Typography variant="h4" style={{ color: "#1E2233" }}>
