@@ -83,7 +83,7 @@ const Navbar = () => {
   return (
     <>
       <Nav>
-        <HashLink to="#top" smooth scroll={(el) => scrollWithOffset(el)}>
+        <HashLink to="/#top" smooth scroll={(el) => scrollWithOffset(el)}>
           <Logo>SAYUMI</Logo>
         </HashLink>
         <ul
