@@ -10,6 +10,9 @@ import { AboutContent } from "./AboutContent";
 const StyledSection = styled.section`
   padding: 8% 8% 0 8%;
   text-align: center;
+  @media only screen and (max-width: 600px) {
+    padding-top: 60px;
+  }
 `;
 
 const StyledItem1 = styled(Grid)`

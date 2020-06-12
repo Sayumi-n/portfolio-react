@@ -14,6 +14,9 @@ import Rotate from "react-reveal/Rotate";
 const StyledSection = styled.section`
   padding: 8% 10% 8% 10%;
   text-align: center;
+  @media only screen and (max-width: 600px) {
+    padding-top: 60px;
+  }
 `;
 const StyledContainer = styled(Grid)`
   min-height: 60vh;
