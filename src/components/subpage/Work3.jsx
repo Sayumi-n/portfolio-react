@@ -8,6 +8,7 @@ import { StyledButton } from "../asset/button";
 import { ProjectObj } from "./ProjectContent";
 import NavigateNextIcon from "@material-ui/icons/NavigateNext";
 import ArrowBackIcon from "@material-ui/icons/ArrowBack";
+import noella from "../asset/images/noella.png";
 
 const StyledHeader = styled.header`
   width: 84%;
@@ -71,7 +72,7 @@ class Work3 extends React.Component {
           >
             {ProjectObj.project3.title}
           </Typography>
-          <StyledImg src="./images/noella.png" alt="" srcset="" />
+          <StyledImg src={noella} alt="" srcset="" />
           <Box>
             <StyledButton
               component={Link}

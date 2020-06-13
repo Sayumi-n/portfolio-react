@@ -3,14 +3,13 @@ import styled, { keyframes } from "styled-components";
 import { Typography } from "@material-ui/core";
 import Zoom from "react-reveal/Zoom";
 import { HashLink } from "react-router-hash-link";
+import HeaderImg from "../asset/images/top.png";
 
 const StyledHeader = styled.header`
   width: 84%;
-
   margin: -184px 8% 0 8%;
   text-align: center;
-  background-image: url("./images/top.png");
-
+  background-image: url(${HeaderImg});
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

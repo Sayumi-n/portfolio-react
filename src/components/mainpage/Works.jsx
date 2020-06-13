@@ -10,6 +10,9 @@ import Link from "@material-ui/core/Link";
 // import { Link } from "react-router-dom";
 import Slide from "react-reveal/Slide";
 import Rotate from "react-reveal/Rotate";
+import noella from "../asset/images/noella.png";
+import haiku from "../asset/images/haiku.png";
+import pics from "../asset/images/pics.png";
 
 const StyledSection = styled.section`
   padding: 8% 10% 8% 10%;
@@ -71,7 +74,7 @@ const Works = () => {
         <Grid item xs={12} sm={6}>
           <StyledBackgroundDiv></StyledBackgroundDiv>
           <Link href="/work1">
-            <StyledImg src="./images/haiku.png" alt="" width="100%" />
+            <StyledImg src={haiku} alt="" width="100%" />
           </Link>
         </Grid>
         <Grid item xs={12} sm={6} style={{ zIndex: "2" }}>
@@ -104,7 +107,7 @@ const Works = () => {
         <Grid item xs={12} sm={6}>
           <StyledBackgroundDiv></StyledBackgroundDiv>
           <Link href="/work2">
-            <StyledImg src="./images/pics.png" alt="" width="100%" />
+            <StyledImg src={pics} alt="" width="100%" />
           </Link>
         </Grid>
         <Grid item xs={12} sm={6} style={{ zIndex: "2" }}>
@@ -137,7 +140,7 @@ const Works = () => {
         <Grid item xs={12} sm={6}>
           <StyledBackgroundDiv></StyledBackgroundDiv>
           <Link href="/work3">
-            <StyledImg src="./images/noella.png" alt="" width="100%" />
+            <StyledImg src={noella} alt="" width="100%" />
           </Link>
         </Grid>
         <Grid item xs={12} sm={6} style={{ zIndex: "2" }}>

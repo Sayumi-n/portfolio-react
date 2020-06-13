@@ -6,6 +6,7 @@ import Box from "@material-ui/core/Box";
 import Fade from "react-reveal/Fade";
 import Zoom from "react-reveal/Zoom";
 import { AboutContent } from "./AboutContent";
+import profileImg from "../asset/images/profile.png";
 
 const StyledSection = styled.section`
   padding: 8% 8% 0 8%;
@@ -57,8 +58,8 @@ const About = () => {
           <Grid item xs={12} sm={5} align="center">
             <Fade left>
               <img
-                src="./images/profile.png"
-                alt=""
+                src={profileImg}
+                alt="profilepic"
                 //   style={{ padding: "30px" }}
                 width="60%"
               />
