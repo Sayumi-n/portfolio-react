@@ -33,6 +33,7 @@ let theme = createMuiTheme({
     letterSpacing: "3rem",
     h4: {
       fontWeight: 500,
+      letterSpacing: "0.3rem",
     },
     h5: {
       letterSpacing: "0.3rem",

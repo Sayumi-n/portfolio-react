@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import styled, { keyframes } from "styled-components";
 import { Typography } from "@material-ui/core";
 import Zoom from "react-reveal/Zoom";
@@ -9,10 +9,13 @@ const StyledHeader = styled.header`
   width: 84%;
   margin: -184px 8% 0 8%;
   text-align: center;
-  background-image: url(${HeaderImg});
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+
+  &.loaded {
+    background-image: url(${HeaderImg});
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
   height: 90vh;
   @media only screen and (max-width: 600px) {
     width: 100%;
@@ -72,8 +75,13 @@ const ScrollArrowText = styled.span`
 `;
 
 const Header = () => {
+  const [isLoading, setIsLoading] = useState(true);
+  useEffect(() => {
+    setTimeout(() => setIsLoading(false), 200);
+  }, []);
+
   return (
-    <StyledHeader id="top">
+    <StyledHeader id="top" className={isLoading ? "" : "loaded"}>
       <TitleDiv>
         <Zoom>
           <Typography variant="h4" style={{ color: "#1E2233" }}>

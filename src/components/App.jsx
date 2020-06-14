@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { MuiThemeProvider } from "@material-ui/core/styles";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import theme from "./asset/theme";
@@ -11,11 +11,6 @@ import Work2 from "./subpage/Work2";
 import Work3 from "./subpage/Work3";
 
 const App = () => {
-  // const [isLoaded, setIsLoaded] = useState(false);
-  // useEffect(() => {
-  //   setTimeout(() => setSpinner(false), 1000);
-  // }, []);
-
   return (
     <MuiThemeProvider theme={theme}>
       <CssBaseline />
