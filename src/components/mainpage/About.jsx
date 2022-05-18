@@ -69,7 +69,7 @@ const About = () => {
             <StyledHeadlineDiv>
               <Fade right>
                 <Typography variant="subtitle1" align="left">
-                  I'm Sayumi, a front-end web developer based in Vancouver.
+                  I'm Sayumi, a Solutions Engineer.
                 </Typography>
               </Fade>
             </StyledHeadlineDiv>
@@ -109,9 +109,9 @@ const About = () => {
                   variant="subtitle1"
                   style={{ paddingBottom: "8px" }}
                 >
-                  Front-end
+                  Technical Support
                 </Typography>
-                {AboutContent.lists.frontEnd.list.map((item, index) => (
+                {AboutContent.lists.technicalSupport.list.map((item, index) => (
                   <Typography variant="body1" key={index}>
                     {item}
                   </Typography>
@@ -126,10 +126,10 @@ const About = () => {
                   variant="subtitle1"
                   style={{ paddingBottom: "8px" }}
                 >
-                  Other skills
+                  Web Development
                 </Typography>
 
-                {AboutContent.lists.other.list.map((item, index) => (
+                {AboutContent.lists.frontEnd.list.map((item, index) => (
                   <Typography variant="body1" key={index}>
                     {item}
                   </Typography>

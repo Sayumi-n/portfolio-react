@@ -18,7 +18,6 @@ const StyledHeader = styled.header`
   background-image: linear-gradient(#f8f8f8, #b1ccdd);
   border-bottom-left-radius: 0 50%;
   border-bottom-right-radius: 45% 50%;
-
   display: flex-box;
   align-self: center;
   align-items: center;
@@ -38,7 +37,6 @@ const StyledImg = styled.img`
   position: relative;
   margin: auto 0;
   padding: 20px;
-
   width: 100%;
   @media only screen and (min-width: 600px) {
     width: 50%;

@@ -9,7 +9,6 @@ const StyledHeader = styled.header`
   width: 84%;
   margin: -184px 8% 0 8%;
   text-align: center;
-
   // &.loaded {
   background-image: url(${HeaderImg});
   background-size: cover;
