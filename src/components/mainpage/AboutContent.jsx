@@ -1,7 +1,7 @@
 export const AboutContent = {
   aboutMe: {
     text:
-      "2-years of experience in SaaS technical support, excellent reputation for resolving problems and improving customer satisfaction while prioritize, manage, multi-task. Ambitious, flexible team member who enjoys learning new skills and up-to-date technologies, adept at maintaining cordial and professional relationships with colleagues and customers.",
+      "2-years of experience in SaaS technical support, business optimization with state-of-the-art, user-friendly web applications is passion of mine. Ambitious, flexible team member who enjoys learning new skills and up-to-date technologies, adept at maintaining cordial and professional relationships with colleagues and customers.",
   },
   lists: {
     interest: {
@@ -22,7 +22,7 @@ export const AboutContent = {
         "Client-facing communication",
         "Analyze complex issue",
         "Document solutions",
-        "Zendesk/Atlassian",
+        "Prioritize, Manage, Multi-task.",
       ],
     },
     frontEnd: {
@@ -31,9 +31,9 @@ export const AboutContent = {
         "HTML5/CSS3",
         "JavaScript/TypeScript",
         "React.js/Redux",
-        "Sass",
         "Github",
         "Hands-on experience in cloud",
+        "MERN stack",
       ],
     },
   },
