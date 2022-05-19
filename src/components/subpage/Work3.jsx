@@ -66,7 +66,7 @@ class Work3 extends React.Component {
           <Typography
             variant="h4"
             color="secondary"
-            style={{ paddingTop: "24px" }}
+            style={{ paddingTop: "90px" }}
           >
             {ProjectObj.project3.title}
           </Typography>
