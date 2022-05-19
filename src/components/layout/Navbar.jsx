@@ -123,11 +123,6 @@ const Navbar = () => {
               <LinkedInIcon />
             </StyledLink>
           </StyledIconList>
-          {/* <StyledIconList>
-            <StyledLink href="./Sayumi_N_Resume.pdf">
-              <DescriptionIcon />
-            </StyledLink>
-          </StyledIconList> */}
         </ul>
       </SubNav>
     </>
