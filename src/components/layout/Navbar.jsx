@@ -6,7 +6,7 @@ import { HashLink } from "react-router-hash-link";
 
 import GitHubIcon from "@material-ui/icons/GitHub";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
-import DescriptionIcon from "@material-ui/icons/Description";
+// import DescriptionIcon from "@material-ui/icons/Description";
 import MailOutlineIcon from "@material-ui/icons/MailOutline";
 
 const Nav = styled.nav`
@@ -123,6 +123,11 @@ const Navbar = () => {
               <LinkedInIcon />
             </StyledLink>
           </StyledIconList>
+          {/* <StyledIconList>
+            <StyledLink href="./Sayumi_N_Resume.pdf">
+              <DescriptionIcon />
+            </StyledLink>
+          </StyledIconList> */}
         </ul>
       </SubNav>
     </>
