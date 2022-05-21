@@ -72,14 +72,14 @@ class Work3 extends React.Component {
           </Typography>
           <StyledImg src={noella} alt="" srcset="" />
           <Box>
-            <StyledButton
+            {/* <StyledButton
               component={Link}
               style={{ margin: "16px 32px" }}
               href="https://noellatradingcompany.netlify.app/"
             >
               Visit Website
               <NavigateNextIcon />
-            </StyledButton>
+            </StyledButton> */}
             <StyledButton
               component={Link}
               style={{ margin: "16px 32px" }}

@@ -84,7 +84,9 @@ const Header = () => {
       <TitleDiv>
         <Zoom>
           <Typography variant="h4" style={{ color: "#1E2233" }}>
-            Hi, I'm Sayumi.
+            Hi,
+            <br />
+            I'm Sayumi.
           </Typography>
         </Zoom>
       </TitleDiv>

@@ -20,9 +20,7 @@ const Contact = () => {
       <hr style={{ width: "50px" }} />
       <Grid container style={{ paddingTop: "16px" }} align="center">
         <Grid item xs={12}>
-          <Typography variant="body1">
-            Interested In working with me? Reach me by email:
-          </Typography>
+          <Typography variant="body1">Reach me by email:</Typography>
           <Typography variant="body1">
             <SendIcon />
           </Typography>
