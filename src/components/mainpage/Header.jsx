@@ -29,7 +29,7 @@ const TitleDiv = styled.div`
 
 const ScrollBtn = styled.div`
   position: absolute;
-  bottom: 80px;
+  bottom: 100px;
   margin: 0 auto;
   width: 120px;
   height: 60px;
@@ -58,7 +58,7 @@ const ScrollArrow = styled.span`
   width: 24px;
   height: 24px;
   margin-left: -12px;
-  margin-top: 12px;
+  margin-top: 6px;
   border-left: 1px solid #1e2233;
   border-bottom: 1px solid #1e2233;
   -webkit-transform: rotate(-45deg);
