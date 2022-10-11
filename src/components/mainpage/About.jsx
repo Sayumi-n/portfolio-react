@@ -69,7 +69,7 @@ const About = () => {
             <StyledHeadlineDiv>
               <Fade right>
                 <Typography variant="subtitle1" align="left">
-                  I'm Sayumi, a Technical Support Engineer.
+                  I'm Sayumi, a Solutions Engineer.
                 </Typography>
               </Fade>
             </StyledHeadlineDiv>
