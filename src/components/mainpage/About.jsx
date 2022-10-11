@@ -109,7 +109,7 @@ const About = () => {
                   variant="subtitle1"
                   style={{ paddingBottom: "8px" }}
                 >
-                  Technical Support
+                  Problem Solving
                 </Typography>
                 {AboutContent.lists.technicalSupport.list.map((item, index) => (
                   <Typography variant="body1" key={index}>
