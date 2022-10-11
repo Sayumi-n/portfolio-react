@@ -14,14 +14,14 @@ export const AboutContent = {
         "UI/UX design",
       ],
     },
-    technical: {
-      title: "Problem Solving",
+    technicalSupport: {
+      title: "Technical Support",
       list: [
+        "Problem Solving",
         "Client-facing communication",
         "Analyze complex issue",
         "Document solutions",
         "Prioritize, Manage, Multi-task",
-        "Learning new technologies quickly",
       ],
     },
     frontEnd: {
