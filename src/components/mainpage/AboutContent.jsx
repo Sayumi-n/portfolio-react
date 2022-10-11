@@ -15,13 +15,13 @@ export const AboutContent = {
       ],
     },
     technicalSupport: {
-      title: "Technical Support",
+      title: "Problem Solving",
       list: [
-        "Problem Solving",
         "Client-facing communication",
         "Analyze complex issue",
         "Document solutions",
         "Prioritize, Manage, Multi-task",
+        "Learning new technologies quickly"
       ],
     },
     frontEnd: {
